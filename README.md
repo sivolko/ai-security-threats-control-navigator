@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/ed8339ba-7fae-43df-8fe2-354f1991cb3d)
 
-# AI Security Threats and Controls Navigator
+# AI Security Threats and Controls Navigator Simplified by Shubhendu
 
 This project is a mindmap of OWASP Top LLM 2025 Security Threats and Controls Navigator, visualized using Markmap.
 

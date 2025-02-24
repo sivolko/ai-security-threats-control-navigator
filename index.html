@@ -3,10 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LLM SecurityMindMap Navigator</title>
+  <title>LLM Security MindMap Navigator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      animation: backgroundAnimation 10s infinite alternate;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2em;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    select {
+      font-size: 1em;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      animation: fadeIn 2s ease-in-out 1s;
+    }
+
+    @keyframes backgroundAnimation {
+      from {
+        background: linear-gradient(to right, #ece9e6, #ffffff);
+      }
+      to {
+        background: linear-gradient(to right, #ffffff, #ece9e6);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Media Queries */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5em;
+      }
+      select {
+        font-size: 0.8em;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>LLM Security MindMap- by Shubhendu </h1>
+  <h1>LLM Security Mind Map - by Shubhendu</h1>
   <select onchange="location = this.value;">
     <option value="">Select a page</option>
     <option value="AI-security-threats-navigator.html">AI Security Threats Navigator</option>
